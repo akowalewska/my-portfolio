@@ -219,6 +219,19 @@ section h3 {
 
 /* Main headres styles - END*/
 
+.parallax {
+	height: 300px;
+	background-color: red;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	
+}
+
+#parallax-first {
+	background-image: url(../img/juliette-leufke-154599.jpg);
+}
+
 /* Section Services */
 
 #services .fa {
