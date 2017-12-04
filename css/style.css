@@ -335,9 +335,9 @@ section h3 {
 /* Section Team */
 #team {
     background-image: url(../img/me.jpg);
-    background-position: center;
+    background-position:top;
     background-size: cover;
-    height:100vh;
+    height:110vh;
 }
 #team .team-description {
     margin-top: 40px;
