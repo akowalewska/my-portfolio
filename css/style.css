@@ -333,7 +333,12 @@ section h3 {
 /* Section Portfolio - END*/
 
 /* Section Team */
-
+#team {
+    background-image: url(../img/me.jpg);
+    background-position: center;
+    background-size: cover;
+    height:100vh;
+}
 #team .team-description {
     margin-top: 40px;
 }
