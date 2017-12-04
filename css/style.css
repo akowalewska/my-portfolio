@@ -177,8 +177,14 @@ section h3 {
     justify-content: center;
     text-align: center;*/
     text-align:center;
-  background:/*linear-gradient(141deg, #ccc 25%, #eee 40%, #ddd 55%);*/linear-gradient(grey, white);
-  color:#555;
+  /*background:linear-gradient(141deg, #ccc 25%, #eee 40%, #ddd 55%);linear-gradient(grey, white);*/
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url(../img/juliette-leufke-154599.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    max-height: 100%;
+  color:#fff;
   font-family: 'Questrial', sans-serif;
   font-weight:400;
   font-size:3em;
@@ -306,27 +312,27 @@ section h3 {
 }
 
 #portfolio-image-background-1 {
-    background-image: url(../img/portfolio/box_of_cookies.jpg);
+    background-image: url(../img/portfolio/florian-klauer-489-reversed.jpg);
 }
 
 #portfolio-image-background-2 {
-    background-image: url(../img/portfolio/chaotic_paint.jpg);
+    background-image: url(../img/portfolio/thought-catalog-214785-portfolio.jpg);
 }
 
 #portfolio-image-background-3 {
-    background-image: url(../img/portfolio/chestnut_on_bracket.jpg);
+    background-image: url(../img/portfolio/freddie-collins-30983-calculator.jpg);
 }
 
 #portfolio-image-background-4 {
-    background-image: url(../img/portfolio/child_with_blue_paint.jpg);
+    background-image: url(../img/portfolio/rawpixel-com-196509-slider.jpg);
 }
 
 #portfolio-image-background-5 {
-    background-image: url(../img/portfolio/house_with_blue_doors.jpg);
+    background-image: url(../img/portfolio/soragrit-wongsa-memorygame.jpg);
 }
 
 #portfolio-image-background-6 {
-    background-image: url(../img/portfolio/typing_on_laptop.jpg);
+    background-image: url(../img/portfolio/carlos-muza-84523-bitcoin.jpg);
 }
 
 
