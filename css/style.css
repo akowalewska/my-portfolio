@@ -349,6 +349,11 @@ section h3 {
     margin-top: 40px;
 }
 
+#team .team-description .signature {
+    font-family: 'Alex Brush', cursive;
+    font-size: 2em;
+}
+
 
 /* Section Team - END */
 
