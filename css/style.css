@@ -294,6 +294,14 @@ section h3 {
     padding: 15px;
 }
 
+.portfolio-link {
+    color: #fff;
+}
+
+.portfolio-link:hover {
+    color: #777;
+}
+
 #portfolio-image-background-1 {
     background-image: url(../img/portfolio/rawpixel-com-315193.jpg);
 }
