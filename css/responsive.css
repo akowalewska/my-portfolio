@@ -1,7 +1,7 @@
 @media all and (max-width: 992px) {
 	.navbar-light .navbar-toggler {
-		color: #0ed8d6;
-		border-color: #0ed8d6;
+		color: #e30e2f;
+		border-color: #e30e2f;
 	}
 	
 	
@@ -10,7 +10,7 @@
 	}
 	
 	#main-nav a.navbar-brand {
-		color: #0ed8d6;
+		color: #e30e2f;
 	}
 	
 	#main-nav .nav-item {
@@ -20,7 +20,7 @@
 	}
 	
 	#main-nav .nav-item a {
-		color: #0ed8d6;
+		color: #e30e2f;
 	}
 }
 

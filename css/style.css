@@ -90,7 +90,6 @@ section h3 {
     color: #777;
 }
 
-
 /* Main nav styles - END */
 
 /* Main header styles */
@@ -167,80 +166,65 @@ section h3 {
 }
 
 #main-header {
-    /*background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/header/pictures_on_the_wall.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;*/
-    text-align:center;
-  /*background:linear-gradient(141deg, #ccc 25%, #eee 40%, #ddd 55%);linear-gradient(grey, white);*/
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url(../img/juliette-leufke-154599.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
     max-height: 100%;
-  color:#fff;
-  font-family: 'Questrial', sans-serif;
-  font-weight:400;
-  font-size:3em;
-  padding-top:40vh;
-  height:100vh;
-  overflow:hidden;
-  -webkit-backface-visibility: hidden;
-  -webkit-perspective: 1000;
-  -webkit-transform: translate3d(0,0,0);
-}
-
-/*#main-header .header-caption h2 {
-    font-family: 'Droid Serif', sans-serif;
-    font-size: 3em;
-}
-
-#main-header .header-caption h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 4em;
-    margin: 45px 0;
-}*/
-
-/*#main-header .header-caption .read-more {
-    background-color: #0ed8d6;
-    border: 1px solid #0ed8d6;
-    font-family: 'Montserrat', sans-serif;
+    text-align: center;
     color: #fff;
-    transition: all .3s;
-    padding: 15px 30px;
-}*/
-
-/*#main-header .header-caption .read-more:hover {
-    background-color: #fff;
-    border: 1px solid #0ed8d6;
-    color: #0ed8d6;
-}*/
-
-
-/* Main headres styles - END*/
-
-.parallax {
-	height: 300px;
-	background-color: red;
-	background-position: center;
-	background-size: cover;
-	background-attachment: fixed;
-	
+    font-family: 'Questrial', sans-serif;
+    font-weight: 400;
+    font-size: 3em;
+    padding-top: 40vh;
+    height: 100vh;
+    overflow: hidden;
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0, 0, 0);
 }
+
+/* Main header styles - END*/
+
+/* Section About me */
+
+#about-me {
+    background-image: url(../img/me.jpg);
+    background-position: top;
+    background-size: cover;
+    height: 100vh;
+}
+
+#about-me .my-description {
+    margin-top: 40px;
+}
+
+#about-me .my-description .signature {
+    font-family: 'Alex Brush', cursive;
+    font-size: 2em;
+}
+
+/* Section About me - END */
+
+/* Paralax effect */
 
 #parallax-first {
-	background-image: url(../img/juliette-leufke-154599.jpg);
+    background-image: url(../img/juliette-leufke-154599.jpg);
 }
 
-/* Section Services */
+.parallax {
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
 
-#services img {
+/* Paralax effect END */
+
+/* Section Skills */
+
+#skills img {
     font-size: 2.8em;
     height: 80px;
     width: 80px;
@@ -248,18 +232,17 @@ section h3 {
     /*border: 1px solid #0ed8d6;*/
     /*border-radius: 50%;*/
     color: #fff;
-   /* background-color: #0ed8d6;*/
+    /* background-color: #0ed8d6;*/
     transition: all .3s;
 }
 
-#services img:hover {
+#skills img:hover {
     color: #e30e2f;
     background-color: #fff;
     transform: rotate(360deg);
 }
 
-
-/* Section Services - END */
+/* Section Skills - END */
 
 /* Section Portfolio */
 
@@ -335,27 +318,7 @@ section h3 {
     background-image: url(../img/portfolio/carlos-muza-84523-bitcoin.jpg);
 }
 
-
 /* Section Portfolio - END*/
-
-/* Section Team */
-#team {
-    background-image: url(../img/me.jpg);
-    background-position:top;
-    background-size: cover;
-    height:110vh;
-}
-#team .team-description {
-    margin-top: 40px;
-}
-
-#team .team-description .signature {
-    font-family: 'Alex Brush', cursive;
-    font-size: 2em;
-}
-
-
-/* Section Team - END */
 
 /* Section Contact */
 
